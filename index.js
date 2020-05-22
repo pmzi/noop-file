@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 
-const noop = require('./src/index');
+const { noopRoot } = require('./src/index');
 
-noop();
+noopRoot();

@@ -7,20 +7,12 @@
   "devDependencies": {
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.1.0",
-    "eslint-plugin-import": "^2.20.2",
-    "microbundle": "^0.12.0"
+    "eslint-plugin-import": "^2.20.2"
   },
   "bin": {
     "noop": "./index.js"
   },
-  "main": "dist/index.js",
-  "source": "index.js",
-  "module": "dist/index.module.js",
-  "unpkg": "dist/index.umd.js",
-  "scripts": {
-    "build": "microbundle",
-    "dev": "microbundle watch"
-  },
+  "main": "src/index.js",
   "dependencies": {
     "js-beautify": "^1.11.0"
   }
