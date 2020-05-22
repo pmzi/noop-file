@@ -1,0 +1,27 @@
+{
+  "name": "noop",
+  "version": "1.0.0",
+  "repository": "https://github.com/pmzi/noop.git",
+  "author": "Pouya <pouya.mozafar@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "microbundle": "^0.12.0"
+  },
+  "bin": {
+    "noop": "./index.js"
+  },
+  "main": "dist/index.js",
+  "source": "index.js",
+  "module": "dist/index.module.js",
+  "unpkg": "dist/index.umd.js",
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch"
+  },
+  "dependencies": {
+    "js-beautify": "^1.11.0"
+  }
+}
