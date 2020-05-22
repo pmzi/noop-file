@@ -1,5 +1,5 @@
 {
-  "name": "noop",
+  "name": "noop-file",
   "version": "1.0.0",
   "repository": "https://github.com/pmzi/noop.git",
   "author": "Pouya <pouya.mozafar@gmail.com>",
@@ -10,7 +10,7 @@
     "eslint-plugin-import": "^2.20.2"
   },
   "bin": {
-    "noop": "./index.js"
+    "noop-file": "./index.js"
   },
   "main": "src/index.js",
   "dependencies": {
